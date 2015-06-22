@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="is-dashboard" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title></title>
+  <meta name="author" content="siar" >
+  <meta name="description" content="Peeragogy members dashboard">
+
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="assets/ico/favicon-144.png">
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/simple-lines/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="assets/prism/prism.css">
+  <link rel="stylesheet" href="assets/summernote/summernote.css">
+  <link rel="stylesheet" href="assets/tags-input/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/selectivizr-min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="dashboard-wrapper">
+    <aside class="dashboard-sidebar sidebar-primary">
+      <div class="sidebar-header text-center">
+        <a class="navbar-brand" href="index.html#link">
+          <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
+          <span class="brand-name">Peer to Peer</span>
+        </a><!-- /.navbar-brand -->
+      </div><!-- /.sidebar-header -->
+      <div class="sidebar-subheader text-center">
+        <img class="img-circle" src="assets/img/user-male-2.jpg" width="100" height="100" alt="img">
+        <p class="no-margin"><strong>Peeragogy Project</strong></p>
+        <p><small><i class="fa fa-globe"></i> Learning with peers</small></p>
+        <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
+      </div><!-- /.sidebar-subheader -->
+      <div class="sidebar-subheader">
+        <form role="search">
+          <input type="text" class="form-control" placeholder="Search">
+        </form>
+      </div><!-- /.sidebar-subheader -->
+      <ul class="sidebar-nav">
+        <li class="active">
+          <a href="index.html">
+            <i class="icon-home"></i>
+            Home
+          </a>
+        </li>
+        <li class="header"><i class="fa fa-circle-o text-warning"></i> Admin</li>
+         <li>
+          <a href="tables.html">
+            <i class="icon-calendar"></i>
+            Date
+          </a>
+        </li>
+        <li>
+          <a href="gallery.html">
+            <i class="icon-camcorder"></i>
+            Hangouts
+          </a>
+        </li>
+         <li>
+          <a href="location.html">
+            <i class="icon-map"></i>
+            Members Map
+          </a>
+        </li>
+      </ul><!-- /.sidebar-nav -->
+    </aside><!-- /.sidebar -->
+    <!-- Page content -->
+    <main class="page-content">
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
+            </div><!-- /.col -->
+            <div class="col-xs-6 text-center">
+              <a class="navbar-brand" href="index.html#link">
+                <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
+                <span class="brand-name">Read me</span>
+              </a>
+            </div><!-- /.col -->
+           
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </nav><!-- /.navbar.navbar-inverse -->
+      
+  <section class="section-xs bg-info">
+        <div class="container">
+          <div class="col-xs-12 text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <strong><i class="fa fa-fw fa-wrench"></i> Status:</strong> V1.0.1 "Charlotte" 
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section>
+
+      <section class="section-sm">
+        <div class="container-fluid">
+         <div class="table-responsive">
+          <section id='introduction'>
+           <h3 class='page-header'>Why:</h3>
+            <div class="text-justify">
+           <p class='bs-example'>
+    is a popular open source WebApp template for admin dashboards and control panels.
+    It is a responsive HTML template that is based on the CSS framework Bootstrap 3.
+    It utilizes all of the Bootstrap components in its design and re-styles many
+    commonly used plugins to create a consistent design that can be used as a user
+    interface for backend applications. AdminLTE is based on a modular design, which
+    allows it to be easily customized and built upon. This documentation will guide you through
+    installing the template and exploring the various components that are bundled with the template.
+  </p>
+  </div>
+  </section><!-- /#introduction -->
+  
+  <!-- ============================================================= -->
+
+   <section class="section-sm">
+          <section id='The Problem'>
+           <h3>The Problem:</h3>
+            <div class="text-justify">
+           <p class='bs-example'>
+   Mauris libero nunc, pulvinar a varius eu, sollicitudin non orci. Sed at vestibulum libero, viverra mattis turpis. 
+   Maecenas interdum nulla venenatis ex mattis eleifend. Duis ut augue vitae orci pretium pulvinar et nec libero. 
+   Nam porttitor vulputate eros, semper feugiat mauris. Nam maximus tempus risus, non ultricies nisl aliquam non. 
+   Donec condimentum, sem elementum ultricies tempor, eros nunc semper ante, ac consequat nisl urna eu diam. Mauris at lacus sem.
+   Maecenas quis auctor nisi. Maecenas facilisis ultricies nisl, eu molestie odio ullamcorper in.
+   In eu ligula id urna vehicula efficitur vitae in sem. Praesent dolor elit, ullamcorper non eros vitae, 
+   lacinia consectetur nibh. Vivamus quis nisi vel arcu fringilla elementum. Quisque luctus ultrices nisl, quis hendrerit 
+   ex bibendum eget. Aenean luctus velit ex, lacinia consequat erat rutrum ut. Nunc sodales. 
+  </p>
+  </div>
+  </section><!-- /#The Problem -->
+
+<!-- ============================================================= -->
+
+   <section class="section-sm">
+          <section id='The Solution'>
+           <h3>The Solution:</h3>
+            <div class="text-justify">
+           <p class='bs-example'>
+   Mauris libero nunc, pulvinar a varius eu, sollicitudin non orci. Sed at vestibulum libero, viverra mattis turpis. 
+   Maecenas interdum nulla venenatis ex mattis eleifend. Duis ut augue vitae orci pretium pulvinar et nec libero. 
+   Nam porttitor vulputate eros, semper feugiat mauris. Nam maximus tempus risus, non ultricies nisl aliquam non. 
+   Donec condimentum, sem elementum ultricies tempor, eros nunc semper ante, ac consequat nisl urna eu diam. Mauris at lacus sem.
+   Maecenas quis auctor nisi. Maecenas facilisis ultricies nisl, eu molestie odio ullamcorper in.
+   In eu ligula id urna vehicula efficitur vitae in sem. Praesent dolor elit, ullamcorper non eros vitae, 
+   lacinia consectetur nibh. Vivamus quis nisi vel arcu fringilla elementum. Quisque luctus ultrices nisl, quis hendrerit 
+   ex bibendum eget. Aenean luctus velit ex, lacinia consequat erat rutrum ut. Nunc sodales. 
+  </p>
+  </div>
+  </section><!-- /#The Solution -->
+
+<!-- ============================================================= -->
+
+   <section class="section-sm">
+          <section id='The Challenges'>
+           <h3>The Challenges:</h3>
+            <div class="text-justify">
+           <p class='bs-example'>
+   Mauris libero nunc, pulvinar a varius eu, sollicitudin non orci. Sed at vestibulum libero, viverra mattis turpis. 
+   Maecenas interdum nulla venenatis ex mattis eleifend. Duis ut augue vitae orci pretium pulvinar et nec libero. 
+   Nam porttitor vulputate eros, semper feugiat mauris. Nam maximus tempus risus, non ultricies nisl aliquam non. 
+   Donec condimentum, sem elementum ultricies tempor, eros nunc semper ante, ac consequat nisl urna eu diam. Mauris at lacus sem.
+   Maecenas quis auctor nisi. Maecenas facilisis ultricies nisl, eu molestie odio ullamcorper in.
+   In eu ligula id urna vehicula efficitur vitae in sem. Praesent dolor elit, ullamcorper non eros vitae, 
+   lacinia consectetur nibh. Vivamus quis nisi vel arcu fringilla elementum. Quisque luctus ultrices nisl, quis hendrerit 
+   ex bibendum eget. Aenean luctus velit ex, lacinia consequat erat rutrum ut. Nunc sodales. 
+  </p>
+  </div>
+  </section><!-- /#The Challenges:  -->
+
+<!-- ============================================================= -->
+
+   <section class="section-sm">
+          <section id='What’s Next '>
+           <h3>What’s Next:</h3>
+            <div class="text-justify">
+           <p class='bs-example'>
+   Mauris libero nunc, pulvinar a varius eu, sollicitudin non orci. Sed at vestibulum libero, viverra mattis turpis. 
+   Maecenas interdum nulla venenatis ex mattis eleifend. Duis ut augue vitae orci pretium pulvinar et nec libero. 
+   Nam porttitor vulputate eros, semper feugiat mauris. Nam maximus tempus risus, non ultricies nisl aliquam non. 
+   Donec condimentum, sem elementum ultricies tempor, eros nunc semper ante, ac consequat nisl urna eu diam. Mauris at lacus sem.
+   Maecenas quis auctor nisi. Maecenas facilisis ultricies nisl, eu molestie odio ullamcorper in.
+   In eu ligula id urna vehicula efficitur vitae in sem. Praesent dolor elit, ullamcorper non eros vitae, 
+   lacinia consectetur nibh. Vivamus quis nisi vel arcu fringilla elementum. Quisque luctus ultrices nisl, quis hendrerit 
+   ex bibendum eget. Aenean luctus velit ex, lacinia consequat erat rutrum ut. Nunc sodales. 
+  </p>
+  </div>
+  </section><!-- /#What’s Next  -->
+
+<!-- ============================================================= -->
+ <section class="section-sm">
+          <section id='Infographic'>
+           <h1>Overview of an <u>Open Space Hangouts Forum:</u></h1>
+            <div class="bs-example">
+          <img src="assets/img/OST.jpg" class="img-responsive center-block" alt="Google Hangout OST">
+  </div>
+  </section><!-- /#infographic -->
+  
+  <!-- ============================================================= -->
+  
+
+    </main><!-- /.page-content -->
+  </div><!-- /.dashboard-wrapper -->
+
+  <!-- last but not least the javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="assets/prism/prism.js"></script>
+  <script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="assets/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/jquery.countdown/jquery.countdown.min.js"></script>
+  <script src="assets/summernote/summernote.min.js"></script>
+  <script src="assets/tags-input/bootstrap-tagsinput.min.js"></script>
+  <script src="assets/autosize/jquery.autosize.min.js"></script>
+  <script src="assets/validator/validator.min.js"></script>
+  <script src="assets/chartjs/Chart.min.js"></script>
+  <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
+  <script src="assets/js/holder.js"></script>
+  <script src="assets/js/demo.js"></script>
+</body>
+</html>

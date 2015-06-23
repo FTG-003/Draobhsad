@@ -1,2 +1,2 @@
 # Peeragogy Dashboard
-Peeragogy Students Dashboard 
+Lunch the Dashboard Locally on your pc/laptop

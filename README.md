@@ -1,2 +1,2 @@
-# Peeragogy Students Dashboard
+# Peeragogy Dashboard
 Peeragogy Students Dashboard 

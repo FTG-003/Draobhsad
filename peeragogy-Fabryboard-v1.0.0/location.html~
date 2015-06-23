@@ -49,14 +49,14 @@
         </form>
        </div><!-- /.sidebar-subheader -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
           </a>
         </li>
         <li class="header"><i class="fa fa-circle-o text-warning"></i>Dashboard</li>
-         <li class="active">
+         <li>
           <a href="location.html">
             <i class="icon-map"></i>
             Members Map
@@ -82,7 +82,7 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="index.html#link">
+              <a class="navbar-brand" href="tables.html#link">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
                 <span class="brand-name">Peeragogy Map</span>
               </a>

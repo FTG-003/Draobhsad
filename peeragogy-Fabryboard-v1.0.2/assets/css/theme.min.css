@@ -1065,7 +1065,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #2f353e;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: none;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     color: #454c54;
@@ -4699,7 +4699,7 @@ html.is-dashboard body {
     height: 35px;
 }
 .sidebar-subheader {
-    padding: 1em;
+    padding: 0.5em;
     color: #fff;
 }
 .sidebar-nav {

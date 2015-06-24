@@ -63,10 +63,11 @@
         </li>
          <li>
           <a href="flip.html">
-            <i class="icon-map"></i>
+            <i class="icon-tag"></i>
             Flip Handbook
           </a>
         </li>
+          </a>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!-- Page content -->
@@ -141,7 +142,7 @@
         <div class="padding-md bg-black-trans">
           <div class="row">
             <div class="col-md-12 text-right">
-              <h2><i class="fa-magic"></i> ↝ Team</h2>
+              <h2><i class="fa-magic"></i> Unpeeragogy Team</h2>
          <a href="http://metameso.org/~joe/docs/peeragogy-3-0-beta2.pdf"target="_blank"> <strong>Handbook .pdf (v.3β2)</strong>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -321,7 +322,7 @@
   <div class="pull-right hidden-xs">
     <b>Version</b>1.0.1 "Charlotte"
       </div>
-       <small>CC BY-NC-SA 2.5,BergamoHub <a href="http://www.fabrizio.terzi.eu">Fabrizio Terzi</a></small></p>
+       <small> Created by<a href="http://www.fabrizio.terzi.eu">Fabrizio Terzi</a></small></p>
          </footer>
     
   <!-- last but not least the javascript -->

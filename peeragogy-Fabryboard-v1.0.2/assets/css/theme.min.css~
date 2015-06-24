@@ -4699,7 +4699,7 @@ html.is-dashboard body {
     height: 35px;
 }
 .sidebar-subheader {
-    padding: 1em;
+    padding: 0.6em;
     color: #fff;
 }
 .sidebar-nav {

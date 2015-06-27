@@ -41,70 +41,27 @@
         <img class="img-circle" src="assets/img/user-group.jpg" width="100" height="100" alt="img">
         <p class="no-margin"><strong>Peeragogy Project</strong></p>
         <p><small><i class="fa fa-globe"></i> Learning with peers</small></p>
-          <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
+        <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
       </div><!-- /.sidebar-subheader -->
       <div class="sidebar-subheader">
         <form role="search">
           <input type="text" class="form-control" placeholder="Search">
         </form>
-        </div><!-- /.sidebar-subheader -->
-     <!-- Menu -->
+      </div><!-- /.sidebar-subheader -->
+      <!-----menu!------------------------------>
+      
       <ul class="sidebar-nav">
-        <li class="active">
+        <li>
           <a href="index.html">
             <i class="icon-home"></i>
             Home
           </a>
-        </li>
-        <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
-         <li>
-           <li>
-          <a href="tables.html">
-            <i class="icon-pin"></i>
-            Events
-          </a>
-        </li>
-         <li>
-          <a href="gallery.html">
-            <i class="icon-camcorder"></i>
-            Hangouts
-          </a>
-        </li>
-         <li>
-           <li>
-          <a href="location.html">
-            <i class="icon-map"></i>
-            Members Map
-          </a>
-        </li>
-          <li class="header"><i class="fa fa-circle-o text-success"></i> Library</li>
-           <li>
-          <a href="library.html">
-            <i class=" icon-folder"></i>
-            Bookcase
-          </a>
-           <li>
-          <a href="translations.html">
-            <i class=" icon-grid"></i>
-            Translations
-          </a>
-        </li>
-        </li>
-         <li>
-          <a href="flip.html">
-            <i class=" icon-eye"></i>
-            Flip Handbook
-          </a>
-        </li>
-          </a>
-      </ul><!-- /.sidebar-nav -->
+       <!-----menu!------------------------------>
+       
     </aside><!-- /.sidebar -->
-    <!--/. Menu -->
-      </ul><!-- /.sidebar-nav -->
-    </aside><!-- /.sidebar -->
-    <!-- Page content -->
-   <!-- Message -->
+
    
+
     <!-- Page content -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -114,37 +71,50 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="index.html#link">
+              <a class="navbar-brand" href="tables.html#link">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
-                <span class="brand-name">Flip Handbook</span>
+                <span class="brand-name">Dashboard</span>
               </a>
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </nav><!-- /.navbar.navbar-inverse -->
-<!-- ============================================================= -->
-     <section class="section-xs bg-success">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <strong><i class="fa fa-fw fa-smile-o"></i> Flip your learning Experience</strong>
+            </div><!-- /.col -->
+            <div class="col-xs-3">
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
+      </nav><!-- /.navbar.navbar-inverse -->
+      
+  <!--Topbar-->
+      <section class="section-xs bg-white border-default">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <ol class="breadcrumb no-margin">
+                <li><a href="tables.html#link">Main</a></li>
+                <li><a href="tables.html#link">Section</a></li>
+                <li class="active">Current</li>
+              </ol>
+            </div><!-- /.col -->  <!--./Topbar-->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
       </section>
-      <!-- ============================================================= -->
-  <!-- Responsive iFrame Flip Book-->
+
+  <!-- Responsive iFrame for Peeragogy Map-->
       <section class="section-sm">
         <div class="container-fluid">
+          <h2>Peeragogues Map</h2>
             <div class="Flexible-container">
-<iframe width="700px" height="425px" src="http://online.fliphtml5.com/xrvq/zwwh/#p=1" frameborder="0" allowfullscreen allowtransparency></iframe>
-          </div>              
-         </section>
+            <iframe src='https://client.myapp.com' style='border:0; width: 100%; height: 100%;'></iframe><iframe id="myapp" name="myapp" src="http://peeragogy.github.io/" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
+         </div>              
+        </section>
 
     </main><!-- /.page-content -->
+    
+    
+
   </div><!-- /.dashboard-wrapper -->
 
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://graphikaria.com/demo/theorem/v2.0.0/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugins -->

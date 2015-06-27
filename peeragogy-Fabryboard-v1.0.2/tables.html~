@@ -41,16 +41,15 @@
         <img class="img-circle" src="assets/img/user-group.jpg" width="100" height="100" alt="img">
         <p class="no-margin"><strong>Peeragogy Project</strong></p>
         <p><small><i class="fa fa-globe"></i> Learning with peers</small></p>
-          <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
+        <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
       </div><!-- /.sidebar-subheader -->
       <div class="sidebar-subheader">
         <form role="search">
           <input type="text" class="form-control" placeholder="Search">
         </form>
-        </div><!-- /.sidebar-subheader -->
-     <!-- Menu -->
+      </div><!-- /.sidebar-subheader -->
       <ul class="sidebar-nav">
-        <li class="active">
+        <li>
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -58,7 +57,7 @@
         </li>
         <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
          <li>
-           <li>
+           <li class="active">
           <a href="tables.html">
             <i class="icon-pin"></i>
             Events
@@ -83,12 +82,12 @@
             <i class=" icon-folder"></i>
             Bookcase
           </a>
-           <li>
+        </li>
+          <li>
           <a href="translations.html">
             <i class=" icon-grid"></i>
             Translations
           </a>
-        </li>
         </li>
          <li>
           <a href="flip.html">
@@ -99,12 +98,7 @@
           </a>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
-    <!--/. Menu -->
-      </ul><!-- /.sidebar-nav -->
-    </aside><!-- /.sidebar -->
-    <!-- Page content -->
-   <!-- Message -->
-   
+
     <!-- Page content -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -114,37 +108,145 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="index.html#link">
+              <a class="navbar-brand" href="tables.html#link">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
-                <span class="brand-name">Flip Handbook</span>
+                <span class="brand-name">Community Events</span>
               </a>
+            </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </nav><!-- /.navbar.navbar-inverse -->
-<!-- ============================================================= -->
-     <section class="section-xs bg-success">
+     <!-- ============================================================= -->
+     <section class="section-xs bg-info">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <strong><i class="fa fa-fw fa-smile-o"></i> Flip your learning Experience</strong>
+              <strong><i class="fa fa-fw fa-tachometer"></i> Inspire on</strong>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section>
       <!-- ============================================================= -->
-  <!-- Responsive iFrame Flip Book-->
       <section class="section-sm">
         <div class="container-fluid">
-            <div class="Flexible-container">
-<iframe width="700px" height="425px" src="http://online.fliphtml5.com/xrvq/zwwh/#p=1" frameborder="0" allowfullscreen allowtransparency></iframe>
-          </div>              
-         </section>
+              <h2>Scheduling Community Events</h2>
+              <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Events</th>
+                      <th>Frequency</th>
+                      <th>Time & Date</th>
+                      <th>Facilitator & @contact</th>
+                      <th>Invitation</th>
+                      <th>Join</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Live sessions G+</td>
+                      <td>Weekly</td>
+                      <td>Monday-1PM Eastern / 6PM UK</td>
+                      <td><a href="mailto:charlottepierce.com ">Charlotte Pierce - Arlington (U.S.A.)</a></td>
+                      <td>No</td>
+                      <td><a class="btn btn-info btn-sm" href="https://plus.google.com/+PeeragogyOrgHandbook/posts" target="_blank">Join!</a></td>
+                    </tr>
+                     <tr>
+                      <td>Welcoming Day</td>
+                      <td></td>
+                      <td></td>
+                       <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                    <tr>
+                      <td>Translations Team</td>
+                      <td></td>
+                      <td></td>
+                       <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                    <tr>
+                      <td>Technology Team</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td>Handbook Team</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td>Current Projects</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td>Design Team</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td>K12-Focus</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                    <tr>
+                      <td>Discussions</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                     <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><a class="btn btn-info btn-sm" href="tables.html#"></a></td>
+                    </tr>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!-- /.table-responsive -->
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section>
 
     </main><!-- /.page-content -->
+
   </div><!-- /.dashboard-wrapper -->
 
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugins -->

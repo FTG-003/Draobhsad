@@ -34,7 +34,7 @@
       <div class="sidebar-header text-center">
         <a class="navbar-brand" href="index.html#link">
           <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
-          <span class="brand-name">Peer to Peer</span>
+          <span class="brand-name">Peeragogues</span>
         </a><!-- /.navbar-brand -->
       </div><!-- /.sidebar-header -->
       <div class="sidebar-subheader text-center">
@@ -47,7 +47,7 @@
         <form role="search">
           <input type="text" class="form-control" placeholder="Search">
         </form>
-       </div><!-- /.sidebar-subheader -->
+        </div><!-- /.sidebar-subheader -->
       <ul class="sidebar-nav">
         <li>
           <a href="index.html">
@@ -55,16 +55,43 @@
             Home
           </a>
         </li>
-        <li class="header"><i class="fa fa-circle-o text-warning"></i>Dashboard</li>
-         <li class="active">
+        <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
+         <li>
+           <li>
+          <a href="tables.html">
+            <i class="icon-pin"></i>
+            Events
+          </a>
+        </li>
+         <li>
+          <a href="gallery.html">
+            <i class="icon-camcorder"></i>
+            Hangouts
+          </a>
+        </li>
+         <li>
+           <li class="active">
           <a href="location.html">
             <i class="icon-map"></i>
             Members Map
           </a>
         </li>
+          <li class="header"><i class="fa fa-circle-o text-success"></i> Library</li>
+           <li>
+          <a href="library.html">
+            <i class=" icon-folder"></i>
+            Bookcase
+          </a>
+            <li>
+          <a href="translations.html">
+            <i class=" icon-grid"></i>
+            Translations
+          </a>
+        </li>
+        </li>
          <li>
           <a href="flip.html">
-            <i class="icon-map"></i>
+            <i class=" icon-eye"></i>
             Flip Handbook
           </a>
         </li>
@@ -72,7 +99,6 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!-- Page content -->
- 
     <!-- Page content -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -106,7 +132,7 @@
         <div class="container-fluid">
           <h2>Peeragogues Map</h2>
             <div class="Flexible-container">
-          <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=zs8z5LUDvpaY.knMlXinabpbs"></iframe>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://peeragogy.github.io/"></iframe>
          </div>              
         </section>
 

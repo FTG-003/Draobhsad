@@ -47,7 +47,7 @@
           <input type="text" class="form-control" placeholder="Search">
         </form>
       </div><!-- /.sidebar-subheader -->
-      <!-- Menu -->
+       <!-- Menu -->
       <ul class="sidebar-nav">
         <li class="active">
           <a href="index.html">
@@ -111,7 +111,6 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!--/. Menu -->
-    </aside><!-- /.sidebar -->
 
     <!-- Page content -->
     <main class="page-content">
@@ -122,7 +121,7 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="tables.html#link">
+              <a class="navbar-brand" href="">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
                 <span class="brand-name">Handbook Translations</span>
               </a>
@@ -161,7 +160,7 @@
         <div class="container-fluid">
           <h2></h2>
             <div class="Flexible-container">
-            <iframe src='https://client.myapp.com' style='border:0; width: 100%; height: 100%;'></iframe><iframe id="myapp" name="myapp" src="http://www.systranet.com/turl/?systrangui=http://www.systran.it%3B/snetcom/web&systranbanner=1&systranuid=aHR0cC1wZWVyYWdvZ3kuZ2l0aHViLmlvLy9lbl9wdA==" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
+            <iframe src='https://client.myapp.com' style='border:0; width: 100%; height: 100%;'></iframe><iframe id="myapp" name="myapp" src="http://peeragogy.github.io/" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
          </div>              
         </section>
     </main><!-- /.page-content -->
@@ -169,7 +168,7 @@
 
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="http://graphikaria.com/demo/theorem/v2.0.0/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugins -->

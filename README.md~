@@ -28,15 +28,16 @@ And Voilà!! Everything you need on a single page.
 6. **10 Handbook translations**
 7. **Flip Handbook**
 
+Pull from `upstream` frequently to keep your local copy up to date:
+ 
+ ```
+ $ git pull upstream gh-pages
+ ```
+
 If you want directly manage the repository from your machine.
 ```
  $ git clone https://github.com/FTG-003/Peeragogy-Dashboard.git
 
- ```
- Pull from `upstream` frequently to keep your local copy up to date:
- 
- ```
- $ git pull 
  ```
 ## Contributing
 

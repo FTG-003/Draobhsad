@@ -27,6 +27,7 @@
     <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
   <div class="dashboard-wrapper">
     <aside class="dashboard-sidebar sidebar-primary">
@@ -56,12 +57,6 @@
           </a>
         </li>
         <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
-         <li>
-          <a href="task.html">
-            <i class="icon-target"></i>
-           Tasks
-          </a>
-        </li>
          <li>
            <li>
           <a href="tables.html">
@@ -101,12 +96,6 @@
             Flip Handbook
           </a>
         </li>
-         <li class="header"><i class="fa fa-circle-o text-info"></i> Info</li>
-         <li>
-          <a href="info.html">
-            <i class="icon-info"></i>
-          How to stay tuned
-          </a>
           </a>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->

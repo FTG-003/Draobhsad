@@ -27,7 +27,6 @@
     <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
-
 <body>
   <div class="dashboard-wrapper">
     <aside class="dashboard-sidebar sidebar-primary">
@@ -48,8 +47,9 @@
           <input type="text" class="form-control" placeholder="Search">
         </form>
       </div><!-- /.sidebar-subheader -->
+       <!-- Menu -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -57,7 +57,13 @@
         </li>
         <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
          <li>
-           <li class="active">
+          <a href="task.html">
+            <i class="icon-target"></i>
+           Tasks
+          </a>
+        </li>
+         <li>
+           <li>
           <a href="tables.html">
             <i class="icon-pin"></i>
             Events
@@ -82,12 +88,12 @@
             <i class=" icon-folder"></i>
             Bookcase
           </a>
-        </li>
-          <li>
+           <li>
           <a href="translations.html">
             <i class=" icon-grid"></i>
             Translations
           </a>
+        </li>
         </li>
          <li>
           <a href="flip.html">
@@ -95,9 +101,16 @@
             Flip Handbook
           </a>
         </li>
+         <li class="header"><i class="fa fa-circle-o text-info"></i> Info</li>
+         <li>
+          <a href="info.html">
+            <i class="icon-info"></i>
+          How to stay tuned
+          </a>
           </a>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
+    <!--/. Menu -->
 
     <!-- Page content -->
     <main class="page-content">

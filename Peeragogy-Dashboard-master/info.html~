@@ -151,7 +151,7 @@
             If you currently do not know how to use Git (but we hope you can learn with us soon) the easiest way to have the latest version of the dashboard is directly download the .zip file on your device and open the page index.html in your browser.
         <div class="bs-callout bs-callout-default">
        <h4>Download last Dashboard Zip folder on GitHub</h4>
-      <a href="https://github.com/Peeragogy/Peeragogy-Dashboard"target="_blank">Download page</a>
+      <a href="http://ftg-003.github.io/Peeragogy-Dashboard/"target="_blank">Download page</a>
      </div>
       The easiest way to get started would be to join one of our weekly hangouts. And for a quick view of the project's current priorities, please read the
       <a href="http://peeragogy.github.io/distributed_roadmap.html"target="_blank">Distributed Roadmap</a> page in the Peeragogy Handbook. Don't feel that you've got to read the whole handbook before jumping in. But, if you find a part you think you can improve, that's awesome.        

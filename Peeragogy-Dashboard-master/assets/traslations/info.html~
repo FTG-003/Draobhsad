@@ -9,18 +9,18 @@
   <meta name="author" content="siar" >
   <meta name="description" content="Peeragogy members dashboard">
 
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="shortcut icon" href="../assets/ico/favicon.ico">
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="assets/ico/favicon-144.png">
+  <meta name="msapplication-TileImage" content="../assets/ico/favicon-144.png">
 
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/simple-lines/simple-line-icons.css">
-  <link rel="stylesheet" href="assets/bootstrap-select/bootstrap-select.min.css">
-  <link rel="stylesheet" href="assets/prism/prism.css">
-  <link rel="stylesheet" href="assets/summernote/summernote.css">
-  <link rel="stylesheet" href="assets/tags-input/bootstrap-tagsinput.css">
-  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/simple-lines/simple-line-icons.css">
+  <link rel="stylesheet" href="../assets/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="../assets/prism/prism.css">
+  <link rel="stylesheet" href="../assets/summernote/summernote.css">
+  <link rel="stylesheet" href="../assets/tags-input/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
   <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.min.js"></script>
     <script src="assets/js/selectivizr-min.js"></script>
@@ -33,12 +33,12 @@
     <aside class="dashboard-sidebar sidebar-primary">
       <div class="sidebar-header text-center">
         <a class="navbar-brand" href="index.html#link">
-          <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
+          <img class="brand-logo" alt="Logo" src="../assets/img/logo-white.png">
           <span class="brand-name">Peer to Peer</span>
         </a><!-- /.navbar-brand -->
       </div><!-- /.sidebar-header -->
       <div class="sidebar-subheader text-center">
-        <img class="img-circle" src="assets/img/user-group.jpg" width="100" height="100" alt="img">
+        <img class="img-circle" src="../assets/img/user-group.jpg" width="100" height="100" alt="img">
         <p class="no-margin"><strong>Peeragogy Project</strong></p>
         <p><small><i class="fa fa-globe"></i> Learning with peers</small></p>
         <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
@@ -49,7 +49,7 @@
         </form>
        <!-- Menu -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -102,10 +102,10 @@
           </a>
         </li>
          <li class="header"><i class="fa fa-circle-o text-info"></i> Info</li>
-         <li class="active">
+         <li>
           <a href="info.html">
             <i class="icon-info"></i>
-            FAQs
+          How to stay tuned
           </a>
           </a>
       </ul><!-- /.sidebar-nav -->
@@ -121,7 +121,7 @@
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
               <a class="navbar-brand" href="index.html#link">
-                <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
+                <!-- <img class="brand-logo" alt="Logo" src="../assets/img/logo-white.png"> -->
                 <span class="brand-name">Read me</span>
               </a>
             </div><!-- /.col -->
@@ -135,7 +135,7 @@
           <div class="col-xs-12 text-center">
           <div class="row">
             <div class="col-md-12">
-              <strong><i class="fa fa-fw fa-wrench"></i> Status:</strong> V1.1.1 "Go Charles Go"
+              <strong><i class="fa fa-fw fa-wrench"></i> Status:</strong> V1.0.4 "Charlotte" 
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
@@ -146,20 +146,20 @@
            <h3 class='page-header'>Basic:</h3>
             <div class="text-justify">
            <p class='bs-example'>
-            This Dashboard has been designed to be remotely easily managed by a group of co-learner through a public repository on GitHub.
-            We intend to use <a href="https://git-scm.com/"target="_blank">Git</a> as distributed a free and open source  control system designed to handle everything from small community task to very large projects with speed and efficiency. 
-            If you currently do not know how to use Git (but we hope you can learn with us soon) the easiest way to have the latest version of the dashboard is directly download the .zip file on your device and open the page index.html in your browser.
+       This Dashboard has been designed to be remotely easily managed by a group of co-learner through a public repository on GitHub.
+       We intend to use <a href="https://git-scm.com/"target="_blank">Git</a> as distributed a free and open source distributed control system designed to handle everything from small task to very large projects with speed and efficiency. 
+       If you currently do not know how to use Git (but we hope you can learn with us soon) the easiest way to have the latest version of the dashboard is directly download  on your device.
         <div class="bs-callout bs-callout-default">
-       <h4>Download last Dashboard Zip folder on GitHub</h4>
-      <a href="https://github.com/Peeragogy/Peeragogy-Dashboard"target="_blank">Download page</a>
+       <h4>Download Zip folder V1.0.4 on GitHub</h4>
+      <a href="http://ftg-003.github.io/Peeragogy-Dashboard/"target="_blank">Download page</a>
      </div>
       The easiest way to get started would be to join one of our weekly hangouts. And for a quick view of the project's current priorities, please read the
       <a href="http://peeragogy.github.io/distributed_roadmap.html"target="_blank">Distributed Roadmap</a> page in the Peeragogy Handbook. Don't feel that you've got to read the whole handbook before jumping in. But, if you find a part you think you can improve, that's awesome.        
     </p>
     </div>
-   </section><!-- /#introduction --
+   </section><!-- /#introduction -->
   <!-- ============================================================= -->
-       <section class="section-sm">
+      <section class="section-sm">
         <div class="container-fluid">
          <div class="table-responsive">
            <h3 class='page-header'>Editing via commandline:</h3>
@@ -173,14 +173,14 @@
         <p><a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Download git for Linux</a> </p>
         </div>
           <div class="bs-callout bs-callout-default">
-           <h4> git clone https://github.com/Peeragogy/Peeragogy-Dashboard.git</h4>
-           Clone the repository by running the command
-          </div>
+  <h4> git clone https://github.com/FTG-003/Peeragogy-Dashboard.git</h4>
+   Clone the repository by running the command
+</div>
          <div class="bs-callout bs-callout-default">
           <h4> git pull </h4>
-            cd to the dashboard directory and fetch the latest changes.
-            <p>Now you'll have the most update project dashboard ready to go.</p>
-           </div>
+         cd to the dashboard directory and fetch the latest changes.
+         <p>Now you'll have the most update project dashboard  ready to go.</p>
+        </div>
          </div>
        </div>
       </section>
@@ -200,12 +200,12 @@
           Changes you submit may be rendered obsolete or severely broken by work that is merged in while you were working or while your changes were waiting to be approved or applied.
           How can we keep our code consistently up to date and your commits valid?
          <br>
-          The next issue is your commit access. The workflow required in order to contribute to a project is much different if you have write access to the project than if you don’t. 
-          If you don’t have write access, how does the project prefer to accept contributed work? Does it even have a policy?
-          How much work are you contributing at a time? How often do you contribute?
+         The next issue is your commit access. The workflow required in order to contribute to a project is much different if you have write access to the project than if you don’t. 
+         If you don’t have write access, how does the project prefer to accept contributed work? Does it even have a policy?
+         How much work are you contributing at a time? How often do you contribute?
          <br>
-          All these questions can affect how you contribute effectively to a project and what workflows are preferred or available to you.
-          We’ll cover aspects of each of these in a series of use cases, moving from simple to more complex; you should be able to construct the specific workflows you need in practice from these examples.
+         All these questions can affect how you contribute effectively to a project and what workflows are preferred or available to you.
+         We’ll cover aspects of each of these in a series of use cases, moving from simple to more complex; you should be able to construct the specific workflows you need in practice from these examples.
        </p>
        <p><strong>Welcome aboard!!</strong></p> 
   </div>
@@ -217,31 +217,25 @@
     <b>BergamoHub</b> Jun 2015
       </div>
        <small> Created by<a href="https://plus.google.com/u/0/+FabrizioTerzi"> Fabrizio Terzi</a></small></p>
-        <!--AudioFoot-->
-        <audio  controls="controls" hidden="hidden" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)" >
-         <source src="http://www.freesound.org/data/previews/131/131416_2337290-lq.mp33" type="audio/ogg"></source>
-         <source src="http://www.freesound.org/data/previews/131/131416_2337290-lq.mp3" type="audio/mpeg"></source>
-        </audio>
-       <!--./AudioFoot-->
          </footer>
   
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../assets/js/jQuery 1.11.3.js"><\/script>')</script>
+  <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugins -->
-  <script src="assets/prism/prism.js"></script>
-  <script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
-  <script src="assets/isotope/isotope.pkgd.min.js"></script>
-  <script src="assets/jquery.countdown/jquery.countdown.min.js"></script>
-  <script src="assets/summernote/summernote.min.js"></script>
-  <script src="assets/tags-input/bootstrap-tagsinput.min.js"></script>
-  <script src="assets/autosize/jquery.autosize.min.js"></script>
-  <script src="assets/validator/validator.min.js"></script>
-  <script src="assets/chartjs/Chart.min.js"></script>
-  <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
-  <script src="assets/js/holder.js"></script>
-  <script src="assets/js/demo.js"></script>
+  <script src="../assets/prism/prism.js"></script>
+  <script src="../assets/bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="../assets/isotope/isotope.pkgd.min.js"></script>
+  <script src="../assets/jquery.countdown/jquery.countdown.min.js"></script>
+  <script src="../assets/summernote/summernote.min.js"></script>
+  <script src="../assets/tags-input/bootstrap-tagsinput.min.js"></script>
+  <script src="../assets/autosize/jquery.autosize.min.js"></script>
+  <script src="../assets/validator/validator.min.js"></script>
+  <script src="../assets/chartjs/Chart.min.js"></script>
+  <script src="../assets/jquery-labelauty/jquery-labelauty.js"></script>
+  <script src="../assets/js/holder.js"></script>
+  <script src="../assets/js/demo.js"></script>
 </body>
 </html>

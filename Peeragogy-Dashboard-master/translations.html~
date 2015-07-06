@@ -27,7 +27,6 @@
     <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
-
 <body>
   <div class="dashboard-wrapper">
     <aside class="dashboard-sidebar sidebar-primary">
@@ -47,11 +46,11 @@
         <form role="search">
           <input type="text" class="form-control" placeholder="Search">
         </form>
-        </div><!-- /.sidebar-subheader -->
-      
+      </div><!-- /.sidebar-subheader -->
+        
      <!-- Menu -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -78,7 +77,7 @@
           </a>
         </li>
          <li>
-           <li class="active">
+           <li>
           <a href="location.html">
             <i class="icon-map"></i>
             Members Map
@@ -113,6 +112,7 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!--/. Menu -->
+
     <!-- Page content -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -122,36 +122,54 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="index.html#link">
+              <a class="navbar-brand" href="">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
-                <span class="brand-name">Peeragogy Map</span>
+                <span class="brand-name">Handbook Translations</span>
               </a>
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </nav><!-- /.navbar.navbar-inverse -->
- <!-- ============================================================= -->
-     <section class="section-xs bg-success">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <strong><i class="fa fa-fw fa-smile-o"></i> Add your location to facilitate live meetings with members</strong>
+            </div><!-- /.col -->
+            <div class="col-xs-3">
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section>     
+      </nav><!-- /.navbar.navbar-inverse -->
+      
+  <!--Topbar-->
+      <section class="section-xs bg-white border-default">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <ol class="breadcrumb no-margin">
+                <li class="active"><a href="translations.html">Main</a></li>
+                <li><a href="french.html">French</a></li>
+                <li><a href="german.html#link">German</a></li>
+                <li><a href="greek.html#link">Greek</a></li>
+                <li><a href="italian.html#link">Italian</a></li>
+                <li><a href="polish.html#link">Polish</a></li>
+                <li><a href="portuguese.html#link">Portuguese</a></li>
+                <li><a href="russian.html#link">Russian</a></li>
+                <li><a href="spanish.html#link">Spanish</a></li>
+                <li><a href="swedish.html#link">Swedish</a></li>
+                <li><a href="korean.html#link">Korean</a></li>
+              </ol>
+            </div><!-- /.col -->  <!--./Topbar-->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section>
+
   <!-- Responsive iFrame for Peeragogy Map-->
       <section class="section-sm">
         <div class="container-fluid">
-          <h2>Peeragogues Map</h2>
-           <div class="Flexible-container">
-           <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=zs8z5LUDvpaY.knMlXinabpbs"></iframe>
+          <h2></h2>
+            <div class="Flexible-container">
+            <iframe src='https://client.myapp.com' style='border:0; width: 100%; height: 100%;'></iframe><iframe id="myapp" name="myapp" src="http://peeragogy.github.io/" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
          </div>              
         </section>
-       </div><!-- /.dashboard-wrapper -->
     </main><!-- /.page-content -->
+  </div><!-- /.dashboard-wrapper -->
+
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="http://graphikaria.com/demo/theorem/v2.0.0/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugins -->

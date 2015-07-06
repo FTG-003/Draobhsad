@@ -51,7 +51,7 @@
       
      <!-- Menu -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -78,7 +78,7 @@
           </a>
         </li>
          <li>
-           <li class="active">
+           <li>
           <a href="location.html">
             <i class="icon-map"></i>
             Members Map

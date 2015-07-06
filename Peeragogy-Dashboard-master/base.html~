@@ -47,11 +47,11 @@
         <form role="search">
           <input type="text" class="form-control" placeholder="Search">
         </form>
-        </div><!-- /.sidebar-subheader -->
-      
+      </div><!-- /.sidebar-subheader -->
+       
      <!-- Menu -->
       <ul class="sidebar-nav">
-        <li>
+        <li class="active">
           <a href="index.html">
             <i class="icon-home"></i>
             Home
@@ -78,7 +78,7 @@
           </a>
         </li>
          <li>
-           <li class="active">
+           <li>
           <a href="location.html">
             <i class="icon-map"></i>
             Members Map
@@ -113,6 +113,7 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!--/. Menu -->
+       
     <!-- Page content -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -122,33 +123,35 @@
               <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
-              <a class="navbar-brand" href="index.html#link">
+              <a class="navbar-brand" href="tables.html#link">
                 <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
-                <span class="brand-name">Peeragogy Map</span>
+                <span class="brand-name">Dashboard</span>
               </a>
+            </div><!-- /.col -->
+            <div class="col-xs-3">
+            </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </nav><!-- /.navbar.navbar-inverse -->
- <!-- ============================================================= -->
+      
+  <!-- =================topbar============================================ -->
      <section class="section-xs bg-success">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <strong><i class="fa fa-fw fa-smile-o"></i> Add your location to facilitate live meetings with members</strong>
+              <strong><i class="fa fa-fw fa-smile-o"></i> Flip your learning Experience</strong>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section>     
-  <!-- Responsive iFrame for Peeragogy Map-->
-      <section class="section-sm">
-        <div class="container-fluid">
-          <h2>Peeragogues Map</h2>
-           <div class="Flexible-container">
-           <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=zs8z5LUDvpaY.knMlXinabpbs"></iframe>
-         </div>              
-        </section>
-       </div><!-- /.dashboard-wrapper -->
-    </main><!-- /.page-content -->
+      </section>
+      <!-- ============./topbar================================================= -->
+ 
+ <!-- Responsive iFrame Flip Book-->
+ 
+ 
+     
+      </div><!-- /.dashboard-wrapper -->
+
   <!-- last but not least the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
@@ -166,6 +169,5 @@
   <script src="assets/chartjs/Chart.min.js"></script>
   <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
   <script src="assets/js/holder.js"></script>
-  <script src="assets/js/demo.js"></script>
 </body>
 </html>

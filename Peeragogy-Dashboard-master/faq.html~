@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html class="is-dashboard" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title></title>
+  <meta name="author" content="siar" >
+  <meta name="description" content="Peeragogy members dashboard">
+
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="assets/ico/favicon-144.png">
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/simple-lines/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="assets/prism/prism.css">
+  <link rel="stylesheet" href="assets/summernote/summernote.css">
+  <link rel="stylesheet" href="assets/tags-input/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/selectivizr-min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="dashboard-wrapper">
+    <aside class="dashboard-sidebar sidebar-primary">
+      <div class="sidebar-header text-center">
+        <a class="navbar-brand" href="index.html#link">
+          <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
+          <span class="brand-name">Peeragogues</span>
+        </a><!-- /.navbar-brand -->
+      </div><!-- /.sidebar-header -->
+      <div class="sidebar-subheader text-center">
+        <img class="img-circle" src="assets/img/user-group.jpg" width="100" height="100" alt="img">
+        <p class="no-margin"><strong>Peeragogy Project</strong></p>
+        <p><small><i class="fa fa-globe"></i> Learning with peers</small></p>
+          <p><a href="index.html#link" class="btn btn-outline btn-primary">Contact us!</a></p>
+      </div><!-- /.sidebar-subheader -->
+      <div class="sidebar-subheader">
+        <form role="search">
+          <input type="text" class="form-control" placeholder="Search">
+        </form>
+        </div><!-- /.sidebar-subheader -->
+        
+     <!-- Menu -->
+      <ul class="sidebar-nav">
+        <li class="active">
+          <a href="index.html">
+            <i class="icon-home"></i>
+            Home
+          </a>
+        </li>
+        <li class="header"><i class="fa fa-circle-o text-warning"></i> Dashboard</li>
+         <li>
+          <a href="task.html">
+            <i class="icon-target"></i>
+           Tasks
+          </a>
+        </li>
+         <li>
+           <li>
+          <a href="tables.html">
+            <i class="icon-pin"></i>
+            Events
+          </a>
+        </li>
+         <li>
+          <a href="gallery.html">
+            <i class="icon-camcorder"></i>
+            Hangouts
+          </a>
+        </li>
+         <li>
+           <li>
+          <a href="location.html">
+            <i class="icon-map"></i>
+            Members Map
+          </a>
+        </li>
+          <li class="header"><i class="fa fa-circle-o text-success"></i> Library</li>
+           <li>
+          <a href="library.html">
+            <i class=" icon-folder"></i>
+            Bookcase
+          </a>
+           <li>
+          <a href="translations.html">
+            <i class=" icon-grid"></i>
+            Translations
+          </a>
+        </li>
+        </li>
+         <li>
+          <a href="flip.html">
+            <i class=" icon-eye"></i>
+            Flip Handbook
+          </a>
+        </li>
+         <li class="header"><i class="fa fa-circle-o text-info"></i> Info</li>
+         <li>
+          <a href="faq.html">
+            <i class="icon-info"></i>
+            FAQs
+          </a>
+          </a>
+      </ul><!-- /.sidebar-nav -->
+    </aside><!-- /.sidebar -->
+    <!--/. Menu -->
+    <!-- Page content -->
+   <!-- Message -->
+    <!-- Page content -->
+    <main class="page-content">
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
+            </div><!-- /.col -->
+            <div class="col-xs-6 text-center">
+              <a class="navbar-brand" href="index.html#link">
+                <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
+                <span class="brand-name">Flipped Resources</span>
+              </a>
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </nav><!-- /.navbar.navbar-inverse -->
+  <!-- Responsive iFrame Flip Book-->
+        <section class="section-sm">
+        <div class="container-fluid">
+  
+<!-- begin MAIN PAGE CONTENT -->
+  
+        <div id="page-wrapper">
+            <div class="page-content">
+
+                <!-- begin PAGE TITLE ROW -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-title">
+                            <h1>
+                                FAQ
+                                <small>Frequently Asked Questions</small>
+                            </h1>
+                            <ol class="breadcrumb">
+                                <li><i class="fa fa-dashboard"></i>  <a href="https://github.com/Peeragogy/peeragogy-handbook/wiki/Quickstart-guide" target="_blank" >Quickstart guide</a>
+                                
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+                <!-- end PAGE TITLE ROW -->
+
+                <!-- FAQ Accordion -->
+                <div class="row">
+                <div class="container">
+                 <div class="hero-unit">
+                    <div class="col-lg-12">
+   
+                        <div class="portlet portlet-default">
+                            <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <h3>Welcome to the Peeragogy Knowledge Center</h3>
+                                        <p>Let's answer questions here, and then move any answers that exist to a public FAQ on peeragogy.org.
+                                        I copied some of the as-yet unanswered questions here.</p>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="why not?... ↑">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <!-- /input-group -->
+                                        <br>
+                                        <div class="panel-group" id="accordion">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                        <h4 class="panel-title">What is Peeragogy?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseOne" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                     We use the word “peeragogy” to refer to any sort of mutually organized peer learning or peer production project.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                        <h4 class="panel-title">How can I study and develop Peeragogy in practice?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTwo" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                      The Handbook provides a starting place, but in order to practice you need to work with other people! 
+                                                       Perhaps have a look at our "Co-facilitating" and "Co-working" pages for some inspiration, and our "Examples"
+                                                       and "Activities" for some concrete suggestions.  If you already have a learning group, consider ways in which 
+                                                       your group can usefully connect with others.  Also, please consider that the Peeragogy Handbook was made by people like you 
+                                                       -- you can always practice peeragogy by joining our community and helping us improve the book.  Even if it's just a comment here and there 
+                                                       -- tell us about what works for you, and what doesn't. 
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                        <h4 class="panel-title">How can I use Peeragogy to design a platform for peer learning?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                    The patterns, heuristics, and use cases discussed on our Patterns page show how individual problem solving 
+                                                    behavior is related to collective problem solving.  Platform designers need to take both individual and collective
+                                                    action into account.  Our Coworking page provides some further perspective on this.  (You may also want to look at the Convening a Group page,
+                                                     since Coworking picks up where Convening a Group leaves off.) 
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                        <h4 class="panel-title">Can I use Peeragogy to set up a participatory research study?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFour" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                     At the end of our essay describing the move "From Peer learning to 'Peeragogy'", we say: 
+                                                      "Rather than 'reproducing the system', this sort of open-ended descriptive-design process 
+                                                      can be used by learners to identify the topics and ideas of concern to them, as well as to build their own language, 
+                                                      and their own set of social roles, to talk about and devise methods for addressing issues of concern."  
+                                                      It would probably be good to start with that page, and use it together with your group in a collaborative design exercise.  
+                                                      We also provide some thoughts about "Researching Pæragogy", where we connect paragogy principles with a general approach to measuring and supporting learning. 
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                        <h4 class="panel-title">Who does peeragogy? </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFive" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                     Of course, we consider ourselves the peeragogy team. Not
+                                                     everybody is familiar with our, let's say, strategies/beliefs. But I
+                                                     think, as we said earlier if we are feeling and thinking this a
+                                                     good way to solve problems and be creative, then it's a good
+                                                     thing to apply to any given environment. So it's difficult if other
+                                                     people, different from us, try to impose rules or define things
+                                                     without considering our ideas or input. Lisa was talking about
+                                                     organizations. I think they could gain a lot if they understand
+                                                     that peeragogy is a better way to work in an entrepreneurial
+                                                     or private environment, in general, I think it's good for all. 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                        <h4 class="panel-title">What is peer learning/production?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseSix" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                     Well, peer learning. learning with peers,learning from peers and trying   to   make   things   together   or   make   things   happen
+                                                     together.I think that for me, the most important thing I've learned  from this experience is that you can achieve more
+                                                     when you work together and set goals together.                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                                        <h4 class="panel-title">How do you do peeragogy? </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseSeven" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                 <li>That's a good question. I've been thinking more about how
+                                                     you create a culture of peeragogy. It can tend to be a natural extension of the way in which people behave. If the
+                                                     culture/environment is created around a group of people they will tend to participate in that way. I'm not sure if you say I
+                                                     wanna do peeragogy I'm not sure how to respond to that actually. Except I'd want a loose structure, I'm not sure.
+                                                 </li> 
+                                                 <li>I think I do a lot of peeragogy and I'm very happy about it because I learn so much from my group and from myself in this
+                                                     group that I like to apply it to other projects that I'm in or all the co­working/co­living projects or anything basically. Especially
+                                                     the principle of mutual respect that is still remaining after  a very long time. And the really nice relating to each other. <
+                                                     The main principle is mutual respect and openness, mutual space not constrained by time/space. And the process. And
+                                                     what I meant by the details, in each detail there is value that we promote.
+                                                     Let's say how we manage the Peeragogy Page or Community (See “How to Get Involved”. These seem to be details,  
+                                                      but they're actually really important. So if we pay attention to all these, every little thing matters, and this is how I do it. I try to be very careful about basically everything. 
+                                                  </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                                        <h4 class="panel-title">How could your membership organization apply peeragogy?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseEight" class="panel-collapse collapse">
+                                                    <div class="panel-body">                    
+                                                     I love the concept of peeragogy. It combines networking, learning and collaboration and elevates them to a whole new level or platform, 
+                                                     one that I think membership organizations could apply. After all, if your members have identified interacting with their peers, sharing real-life
+                                                     experience and case studies as key reasons for joining your organization, then introducing some peer-based learning sessions might be worth a try.                 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                                                        <h4 class="panel-title">Younger members expect peer information sharing?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseNine" class="panel-collapse collapse">
+                                                    <div class="panel-body">                    
+                                                     In today’s hyper-active social media world, many of us, especially “digital natives” such as Millennials are used to information gathering and 
+                                                     knowledge sharing online. This generation doesn’t want to be lectured to, they want “transformative experiences.” 
+                                                     While some Millennials may not be sold on the importance of face-to-face networking, they regularly seek peer feedback and trust the recommendations 
+                                                     and insight offered via social media networks. This leads me to believe that younger members would welcome a learning experience that involves enabling 
+                                                     them to share opinions and brainstorm solutions – whether online or off.                                               
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                                                        <h4 class="panel-title">Would your members be open to peer-to-peer learning and sharing? </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTen" class="panel-collapse collapse">
+                                                    <div class="panel-body">                    
+                                                     Here are a few ideas for integrating the peeragogy concept in your organization:
+                                                     <li>
+                                                     <strong> “Elevate our conference and education participants to co-learners with the presenters and facilitators.” </strong>
+                                                     This is a key suggestion that Jeff Hurt makes in his post. He advises conference organizers to “[shift] from the traditional 30-, 60- or 90-minute lecture” 
+                                                     and “provide 10-minutes of content followed by 10-minutes of pair-shared discussion. Keep the peer-learning in small pairs or triads so everyone feels engaged.” 
+                                                     </li>
+                                                     <li>
+                                                     <strong> “Harness member insight”</strong> (suggested by one of the comments to Jeff Hurt’s post) – by providing an opportunity for some sort of audience interaction in all conference, 
+                                                     seminar and workshop sessions. Make this a requirement for all of your speakers. 
+                                                     </li>
+                                                     <li>
+                                                     <strong>Peer training:</strong> I’ve seen this concept applied in the workplace, where trainers taught employees counselling and life-saving skills and those folks, in turn, offered training to their colleagues. 
+                                                     Perhaps peer-to-peer learning could be applied to help train fundraising volunteers at non-profits or help volunteers learn member or volunteer recruitment and management skills? This kind of peer training process 
+                                                     could help with volunteer transitions and orientation.
+                                                     </li>
+                                                     <strong>Facilitated networking activities</strong> for example, if you’ve identified some key issues or challenges facing your members, you could organize a facilitated discussion or forum where members could offer their insight on how they’ve handled the issue/challenge.
+                                                     <li></li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                                                        <h4 class="panel-title">Building member engagement through peeragogy?</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse11" class="panel-collapse collapse">
+                                                    <div class="panel-body">                    
+                                                    peeragogy “acknowledges the power of two-way peer relationships in learning.” Do you think peer-based learning and interaction could help your organization increase member engagement?
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <p>For additional support please contact the support team directly.</p>
+                                        <dl>
+                                            <dt><i class="fa fa-envelope"></i> Peers Email Support:</dt>
+                                            <dd><a href="https://groups.google.com/forum/#!forum/peeragogy">@Google-peeragogy-forum</a>
+                                            </dd>
+                                            <dd>For questions, please visit our G+ Community <a href="https://goo.gl/MLK2Ks">peeragogy.org</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <h3>Call Tickets</h3>
+                                        <p class="text-left">Please review our FAQ list to troubleshoot problems that you may be having. If you cannot find an answer to your questions, please submit a call ticket in our "Git-Issues" page and our techincal support staff will contact you as soon as possible.</p>
+                                        <a href="https://github.com/Peeragogy/Peeragogy-Dashboard/issues" target="_blank" class="btn btn-default">Create Call Ticket</a>
+                                        <hr>
+                                        <h3>Ask for help</h3>
+                                        <p class="text-left">The Ticket System enables you to directly submit a support ticket to our Dashboard specialist whose expertise matches your inquiry. This online tool provides an alternative to phone and e-mail and helps expedite the resolution of your issue. </p>
+                                        <a href="https://goo.gl/hBnfR2" target="_blank" class="btn btn-default">Create Support Ticket</a>                                                                
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- /.portlet-body -->
+                        </div>
+                        <!-- /.portlet -->
+
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.page-content -->
+
+        </div>
+        <!-- /#page-wrapper -->
+        <!-- end MAIN PAGE CONTENT -->
+</div>
+    </div>
+    <!-- /#wrapper -->
+   </section>
+
+    </main><!-- /.page-content -->
+  </div><!-- /.dashboard-wrapper -->
+
+  <!-- last but not least the javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/jQuery 1.11.3.js"><\/script>')</script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="assets/prism/prism.js"></script>
+  <script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="assets/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/jquery.countdown/jquery.countdown.min.js"></script>
+  <script src="assets/summernote/summernote.min.js"></script>
+  <script src="assets/tags-input/bootstrap-tagsinput.min.js"></script>
+  <script src="assets/autosize/jquery.autosize.min.js"></script>
+  <script src="assets/validator/validator.min.js"></script>
+  <script src="assets/chartjs/Chart.min.js"></script>
+  <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
+  <script src="assets/js/holder.js"></script>
+  <script src="assets/js/demo.js"></script>
+</body>
+</html>
